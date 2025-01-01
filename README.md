@@ -7,4 +7,5 @@ Os números do teste devem estar contidos no domínio determinado pelo intervalo
 O programa permite testar os mesmos números tantas vezes quanto for determinado. 
 Os números do teste e intervalo devem ser separados por vírgula. 
 \
-\Recomenda-se não testar os números com uma grande quantidade de vezes para não demorar em demasia a finalização do programa, de qualquer modo, pode-se interromper a execução com Ctrl+C.
+\
+Recomenda-se não testar os números com uma grande quantidade de vezes para não demorar em demasia a finalização do programa, de qualquer modo, pode-se interromper a execução com Ctrl+C.
