@@ -59,7 +59,7 @@ public class LoteriaSimulador {
 
 		}
 
-		System.out.print("\nGanhou na(s) aposta(s) de número(s): "+resultados);
+		System.out.print("\nGanhou na(s) aposta(s) de número(s): "+resultados+"\n\n");
 
 	}
 
