@@ -13,9 +13,9 @@ public class LoteriaSimulador {
 		Random dezenaAleatoria = new Random();
 		int contador, numeroAleatorio, repeticao, menor, maior, provisorio;
 
-		System.out.println("*** Loteria-Simulador ************************************************************************************"
-		+ "\n* Este programa tem o objetivo de testar estatísticas de loterias jogando número aleatórios até acertar. *"
-		+ "\n* Para abortar, pressione Ctrl+C                                                                         *"
+		System.out.println("*** Loteria-Simulador *************************************************************************************"
+		+ "\n* Este programa tem o objetivo de testar estatísticas de loterias jogando números aleatórios até acertar. *"
+		+ "\n* Para abortar, pressione Ctrl+C                                                                          *"
 		+ "\n\nInsira os números a serem testados separando-os por vírgula:\n");
 
 		entrada = teclado.nextLine();
@@ -76,7 +76,7 @@ public class LoteriaSimulador {
 
 				aleatorio.clear();
 				while (aleatorio.size()<numeros.size()) {
-					numeroAleatorio = dezenaAleatoria.nextInt(maior) + menor;
+					numeroAleatorio = dezenaAleatoria.nextInt((maior+1)-menor) + menor;
 					if (!aleatorio.contains(numeroAleatorio)) aleatorio.add(numeroAleatorio);
 				}
 				aleatorio.sort(null);
